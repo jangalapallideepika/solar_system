@@ -1,0 +1,119 @@
+body{
+    background:linear-gradient(100deg, black, blue ,aqua)
+}
+.Sun{
+    width:200px;
+    height:200px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:50%;
+    background-image: url("https://img.freepik.com/free-photo/view-3d-burning-sun_23-2150938041.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718582400&semt=ais_user");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+  z-index: 1;
+   
+}
+.Solarsystem{
+    flex-direction: row; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.general:hover{
+    position:absolute;
+    width:500px;
+    height:500px;
+    transform: scale(0.9,0.9);
+    
+}
+.Mercury{
+    width: 170px;
+    height:170px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://www.astronomy.com/wp-content/uploads/sites/2/2023/02/spectra_mercury.jpg");
+    background-size:cover;
+    position:relative;
+    top: 50%;
+    z-index: 2;
+}
+
+.Venus{
+    width: 130px;
+    height:130px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/originals/58/c0/81/58c0818212248ec387424dbc77ad5370.jpg");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+    z-index: 3;
+}
+
+.Earth{
+    width: 90px;
+    height:90px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008_640.jpg");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+    z-index: 4;
+}
+
+.Mars{
+    width: 80px;
+    height:80px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://www.astronomy.com/uploads/2021/09/mars_500.jpg");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+    z-index: 5;
+}
+.Jupiter{
+    width: 70px;
+    height:70px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius: 50%;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNC9wZDM2LTEtZ3NmY18yMDE3MTIwOF9hcmNoaXZlX2UwMDAxMDMtam9iNjIzLWwxdWRzbnRhLmpwZw.jpg");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+    z-index: 6;
+}
+.Saturn{
+    width: 60px;
+    height:60px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/29/13/saturn-saved-earth.jpg?width=1200&height=630&fit=crop");
+    background-size:cover;
+    position:relative;
+    top: 50%;
+    z-index:7;
+}
+.Uranus{
+    width: 55px;
+    height:55px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://science.nasa.gov/wp-content/uploads/2023/09/PIA01492-1.jpg?w=4096&format=jpeg");
+    background-size:cover;
+    position:relative;
+    top: 50%;
+    z-index:8;
+}
+.Neptune{
+    width: 50px;
+    height:50px;
+    border: 5px solid rgb(247, 111, 111);
+    border-radius:  50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Neptune_Voyager2_color_calibrated.png/800px-Neptune_Voyager2_color_calibrated.png");
+    background-size:cover;
+    position: relative;
+    top: 50%;
+    z-index:9;
+}
